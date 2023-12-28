@@ -1,7 +1,7 @@
 const { google } = require("googleapis");
 const fs = require("fs").promises;
 const utils = require("../Utils/util.js");
-require("dotenv").config();
+
 
 //**Function to seggregate the past 20 message id's */
 const retrieveMsg = async (count, gmail) => {
